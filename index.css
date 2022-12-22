@@ -1,0 +1,92 @@
+html, body, p, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    /* font-size: 16px; */
+}
+/* General */
+/* 1. Width Container */
+.layout-container{
+  margin: 0 auto;
+  width: 400px;
+  border-bottom: 0.019em solid black;
+}
+/* 2. Sections Padding */
+.sections-padding{
+  padding: 0 0.7em;
+}
+/* Small Font */
+.small-font{
+  font-size: 0.813rem;
+}
+/* Header Section */
+/* 1. Header Container */
+.header-container{
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-icon{
+  width: 127px;
+  object-fit: contain;
+}
+
+.user-icon{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* Main Section */
+.main-area{
+  height: 8vh;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  
+}
+.main-image{
+  width: 400px;
+  height: 400px;
+}
+
+/* 2. Typography */
+.main-text .main-name{
+  /* font-weight: 700; */
+  /* font-size: 0.813rem; */
+}
+.main-text .main-town{
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+/* Footer Section */
+/* 1. Comments Icons */
+
+.comment-icons{
+  width: 25px;
+  height: 25px;;
+}
+.comment-likes{
+  /* font-weight: 700; */
+  /* font-size: 0.813rem; */
+}
+
+.comment-comments{
+  font-weight: 400;
+  /* font-size: 0.813rem; */
+}
+.comment-comments span{
+  font-weight: 700;
+  /* font-size: 0.813rem; */
+}
+/* 2. Footer container */
+.footer-container{
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
