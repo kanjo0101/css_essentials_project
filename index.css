@@ -4,16 +4,19 @@ html, body, p, h3 {
     box-sizing: border-box;
     font-family: Source Sans Pro;
     font-weight: 700;
-    /* font-size: 16px; */
 }
 /* General */
 /* 1. Width Container */
 .layout-container{
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   width: 400px;
+  background-color: #fff;
+}
+.layout-container header{
+  height: 9vh;
   border-bottom: 0.019em solid black;
 }
-/* 2. Sections Padding */
+/* 2. Sections Margin*/
 .sections-padding{
   padding: 0 0.7em;
 }
@@ -24,7 +27,6 @@ html, body, p, h3 {
 /* Header Section */
 /* 1. Header Container */
 .header-container{
-  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,18 +51,18 @@ html, body, p, h3 {
   
 }
 .main-image{
-  width: 400px;
   height: 400px;
+  object-fit: cover;
 }
 
 /* 2. Typography */
 .main-text .main-name{
-  /* font-weight: 700; */
-  /* font-size: 0.813rem; */
+  font-size: 0.813rem;
 }
 .main-text .main-town{
   font-weight: 400;
   font-size: 0.75rem;
+
 }
 
 /* Footer Section */
@@ -68,20 +70,21 @@ html, body, p, h3 {
 
 .comment-icons{
   width: 25px;
-  height: 25px;;
+  height: 25px;
+  margin-left: 0.75em;
 }
-.comment-likes{
-  /* font-weight: 700; */
-  /* font-size: 0.813rem; */
+
+.comment-icons:hover,
+.comment-icons:focus{
+  opacity: 0.5;
+  cursor:grab;
 }
 
 .comment-comments{
   font-weight: 400;
-  /* font-size: 0.813rem; */
 }
 .comment-comments span{
   font-weight: 700;
-  /* font-size: 0.813rem; */
 }
 /* 2. Footer container */
 .footer-container{
